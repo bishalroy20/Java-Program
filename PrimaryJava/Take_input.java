@@ -7,9 +7,10 @@ public class Product {
         int id;
         String price;
         Scanner i = new Scanner(System.in);
-        Scanner pr = new Scanner(System.in);
+        
         id = i.nextInt();
-        price = pr.next();
+        price = i.next();
+        
         System.out.println("id : " + id);
         System.out.println("Price : " + price);
     }
