@@ -21,5 +21,22 @@ public class WrapperClass {
         
         double d2 = d.doubleValue();
         System.out.println("after primitive : "+d2);
+
+        //primitive  -> string
+        int x = 120;
+        String s = Integer.toString(x);
+        String s = Double.toString(x);
+        System.out.println("pri to string : "+s);
+        
+        //string  -> primitive
+       String s = "32.2";
+       int i = Integer.parseInt(s);
+       double d = Double.parseDouble(s);
+       System.out.println("String to primitive : " + d);
+        
+        //or
+       int i = Integer.valueOf(s);
+       System.out.println("string to primitive : "+i);
+        
     }
 }
