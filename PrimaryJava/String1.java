@@ -1,3 +1,15 @@
+
+
+//more built in function //
+// charAt(index);
+// codePointAt(3) 3index er value er ascii
+// indexOf("ab");
+// lastIndexOf("B");
+// trim;first to last all space delete;
+// replace(i,j); (old,new);
+// split("a"); a paile notun string;
+
+
 package Array_String;
 //import java.util.*;
 
